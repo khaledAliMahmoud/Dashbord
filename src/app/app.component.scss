@@ -1,0 +1,142 @@
+.page{
+width: 100vw;
+height: 100vh;
+display: flex;
+}
+
+.sideBar{
+    height: 100%;
+    width: 115px;
+    background-color:  rgb(255, 183, 48) ;
+    border-top-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 46px;
+}
+
+.sideBar a:hover{
+    cursor: pointer;
+}
+
+.sideBar a:hover .sideIcon{
+    color: white;
+}
+
+.sideBar .drop_water{
+    font-size: 2rem;
+    color: rgb(235, 235, 235);
+}
+
+.icons{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30% 0px 20% 0px;
+    padding-top: 50%;
+}
+
+.icons .control_room{
+    font-size: 2rem;
+    color: rgb(235, 235, 235);
+    margin: 15px 0;
+}
+
+.icons .fa-house{
+    font-size: 2rem;
+    color: rgb(235, 235, 235);
+    margin: 25px 0;
+
+}
+
+.icons .fa-layer-group{
+    font-size: 2rem;
+    color: rgb(235, 235, 235);
+    margin: 25px 0;
+}
+
+.icons .fa-gear{
+    font-size: 2rem;
+    color: rgb(235, 235, 235);
+    margin: 25px 0;
+}
+.icons .fa-bell{
+    font-size: 2rem;
+    color: rgb(235, 235, 235);
+    margin: 25px 0;
+}
+
+.sideBar .log_out{
+    font-size: 2rem;
+    color: rgb(235, 235, 235);
+    // margin-top: 30%;
+}
+
+// ------------------------------------------------SideBar---------------------------------------
+
+.navbar{
+    width: 100%;
+    height: 124px;
+    background-color: white;
+    padding-left: 2%;
+    display: flex;
+    justify-content: start;
+}
+
+.navbar .fa-circle{
+    color: orange;
+    font-size: 12px;
+}
+
+.period{
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.period a{
+    text-decoration: none;
+    margin: 10px 15px;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    // transition: all 0.2s ease-in-out;
+}
+
+.period a:hover{
+    color: whitesmoke;
+    background-color: orangered;
+    border-radius: 30px;
+}
+
+.date{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.fa-caret-right{
+    color: orange;
+}
+
+.fa-stop{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+// ------------------------------------------------NavBar----------------------------------------
+
+
+.content{
+    height: 100%;
+    width: calc(100% - 115px);
+    background-color:  lightgray ;
+}
